@@ -11,8 +11,8 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <h1>Hello this is demo ......</h1>
-        <Navbar />
+      <Navbar />
+        <h1>Hello this is demo ......</h1>
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/contect" element={<Contect />} />
